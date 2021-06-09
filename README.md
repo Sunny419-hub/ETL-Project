@@ -1,6 +1,7 @@
 # ETL-Project
 
 ## Project Title: ETL COVID-19: confirmed cases, deaths, tests and vaccines
+![alt text](images/covid.jpg "Title")
 
 ## Team Members: 
 * Sonia Suárez
