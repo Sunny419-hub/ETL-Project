@@ -21,6 +21,7 @@ The aim of this project is to use the method ETL to cleanup different data sets 
 > * https://www.kaggle.com/joanyliu/vaccination-progress-by-region-visualization?select=CONVENIENT_global_confirmed_cases.csv
 > * https://www.kaggle.com/joanyliu/vaccination-progress-by-region-visualization?select=continents2.csv
 > * https://www.kaggle.com/josephassaker/covid19-global-dataset?select=worldometer_coronavirus_summary_data.csv
+> * https://ourworldindata.org/coronavirus-testing
 
 ## We will base our study in 4 databases
 
