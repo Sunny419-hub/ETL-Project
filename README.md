@@ -37,6 +37,6 @@ The aim of this project is to use the method ETL to cleanup different data sets 
 |Teammate|File|Link|
 |---|---|---|
 |SONIA|Country Vaccinations.csv|https://www.kaggle.com/gpreda/covid-world-vaccination-progress?select=country_vaccinations.csv|
-|ORLANDO|covid-testing-all-observations.csv|https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/testing/covid-testing-all-observations.csv |
+|ORLANDO|Covid-testing-all-observations.csv|https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/testing/covid-testing-all-observations.csv |
 
 ## Data Cleanup & Analysis
