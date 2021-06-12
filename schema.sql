@@ -6,22 +6,22 @@ DROP TABLE tests;
 
 
 CREATE TABLE confirmed_cases (
-    Country VARCHAR(30) NOT NULL PRIMARY KEY,
-    Total_Confirmed INT NOT NULL,
+    Country VARCHAR(50) NOT NULL PRIMARY KEY,
+    Total_Confirmed double precision NOT NULL
 );
 
 CREATE TABLE tests (
-    Country VARCHAR(30) NOT NULL PRIMARY KEY,
-    Total_Confirmed INT NOT NULL,
+    Country VARCHAR(50) NOT NULL PRIMARY KEY,
+    Total_Tests INT NOT NULL
 );
 
 CREATE TABLE deaths (
-    Country VARCHAR(30) NOT NULL PRIMARY KEY,
-    Total_Deaths  INT  NOT NULL,
+    Country VARCHAR(50) NOT NULL PRIMARY KEY,
+    Total_Deaths  INT  NOT NULL
 );
    
 CREATE TABLE vaccination (
-    Country VARCHAR(30) NOT NULL PRIMARY KEY,
+    Country VARCHAR(50) NOT NULL PRIMARY KEY,
 	Total_Vaccinations double precision  NOT NULL,
     People_fully_vaccinated double precision  NOT NULL
 );
