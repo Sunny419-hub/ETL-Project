@@ -2,7 +2,7 @@
 DROP TABLE deaths;
 DROP TABLE vaccination;
 DROP TABLE tests;
-
+DROP TABLE countries;
 
 
 CREATE TABLE confirmed_cases (
@@ -25,4 +25,11 @@ CREATE TABLE vaccination (
 	Total_Vaccinations double precision  NOT NULL,
     People_fully_vaccinated double precision  NOT NULL
 );
-   
+
+create table countries(
+	country varchar(50) NOT NULL,
+	lat double precision,
+	long double precision,
+	code varchar(2),
+	PRIMARY KEY(country)
+);
