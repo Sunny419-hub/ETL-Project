@@ -1,8 +1,8 @@
-﻿DROP TABLE confirmed_cases; 
-DROP TABLE deaths;
-DROP TABLE vaccination;
-DROP TABLE tests;
-DROP TABLE countries;
+﻿DROP TABLE IF EXISTS confirmed_cases; 
+DROP TABLE IF EXISTS deaths;
+DROP TABLE IF EXISTS vaccination;
+DROP TABLE IF EXISTS tests;
+DROP TABLE IF EXISTS countries;
 
 
 CREATE TABLE confirmed_cases (
